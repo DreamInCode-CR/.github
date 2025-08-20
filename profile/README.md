@@ -212,6 +212,32 @@ El hilo de recordatorios consulta `/reminder_tts` cada 30s y reproduce si corres
 - Mantén `OPENAI_API_KEY` en **Application Settings** (no en código).  
 - Limita CORS o usa tokens si expones paneles.
 
+## Roadmap
+
+Este proyecto tiene un enfoque evolutivo y modular. Las próximas etapas planteadas son:
+
+### 1. Integración con dispositivos inteligentes en el hogar (Smart Home)
+- Control básico de luces, ventiladores, aire acondicionado u otros dispositivos mediante comandos de voz.  
+- Integración con plataformas estándar como **Home Assistant**, **Google Home** o **Alexa**.  
+- Automatización de rutinas para acompañamiento (ej. encender luz nocturna cuando el adulto mayor se levante).
+
+### 2. Notificaciones de peligro o situaciones de riesgo
+- Detección de caídas o emergencias mediante sensores IoT o wearables conectados.  
+- Alertas inmediatas enviadas a familiares o cuidadores por medio de:
+  - Notificaciones móviles (push o SMS).  
+  - Llamadas automatizadas en caso de eventos críticos.  
+- Integración con cámaras o sensores de movimiento para monitoreo pasivo.
+
+### 3. Conexión con sistemas de salud en Costa Rica
+- Implementación de interoperabilidad con los sistemas de la **Caja Costarricense de Seguro Social (CCSS)** y hospitales.  
+- Consulta y sincronización de **expedientes digitales en salud (EDUS)** para acceder a:
+  - Recetas médicas activas.  
+  - Próximas citas programadas.  
+  - Indicaciones de médicos tratantes.  
+- Generación de reportes automáticos del estado de adherencia a tratamientos para profesionales de salud.  
+
+---
+
 
 ## Licencia
 
